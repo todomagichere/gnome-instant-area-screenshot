@@ -1,0 +1,7 @@
+{
+  "uuid": "instant-area-screenshot@rperez",
+  "name": "Instant Area Screenshot",
+  "description": "In the screenshot UI, every drag draws a new selection and releasing the mouse takes the screenshot right away.",
+  "shell-version": ["50"],
+  "version": 1
+}
