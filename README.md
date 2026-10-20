@@ -88,3 +88,7 @@ The extension modifies the screenshot UI's area selector instance
 The stock screenshot UI already lets you start a new selection inside the old one if you drag
 while holding <kbd>Ctrl</kbd>, or drag with the right mouse button. It just doesn't hide the
 previous area or capture automatically.
+
+## License
+
+[GPL-2.0-or-later](LICENSE), the same license as GNOME Shell.
