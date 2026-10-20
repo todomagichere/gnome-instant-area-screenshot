@@ -17,7 +17,7 @@ screenshot tool (the one you open with <kbd>Print</kbd>):
 
 I made this for my own desktop, Ubuntu 26.04 LTS with GNOME Shell 50 on Wayland.
 
-I take a lot of area screenshots, and the stock tool kept getting in the way. It reopens with
+The stock area screenshot tool kept getting in the way. It reopens with
 the last rectangle already on screen. Whenever the thing I wanted to capture was inside that
 rectangle, pressing there moved the old box instead of starting a new one. Every screenshot
 meant dragging the box aside or readjusting it, and then clicking the capture button.
