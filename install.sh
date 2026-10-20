@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-UUID=instant-area-screenshot@rperez
+UUID=instant-area-screenshot@todomagichere
 DEST="$HOME/.local/share/gnome-shell/extensions/$UUID"
 mkdir -p "$(dirname "$DEST")"
 rm -rf "$DEST"

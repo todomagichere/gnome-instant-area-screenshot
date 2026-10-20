@@ -42,7 +42,7 @@ On **Wayland**, GNOME Shell only picks up new extensions at login. Log out and b
 then run:
 
 ```sh
-gnome-extensions enable instant-area-screenshot@rperez
+gnome-extensions enable instant-area-screenshot@todomagichere
 ```
 
 On X11 you can restart the shell instead: press <kbd>Alt</kbd>+<kbd>F2</kbd>, type `r` and
@@ -54,7 +54,7 @@ For the **first** install you can load the extension into the running shell from
 Glass. Press <kbd>Alt</kbd>+<kbd>F2</kbd>, type `lg`, press <kbd>Enter</kbd>, and run:
 
 ```js
-const m = Main.extensionManager, u = 'instant-area-screenshot@rperez'; const e = m.createExtensionObject(u, Gio.File.new_for_path(GLib.get_home_dir() + '/.local/share/gnome-shell/extensions/' + u), 2); await m.loadExtension(e); e.state + ' ' + e.error
+const m = Main.extensionManager, u = 'instant-area-screenshot@todomagichere'; const e = m.createExtensionObject(u, Gio.File.new_for_path(GLib.get_home_dir() + '/.local/share/gnome-shell/extensions/' + u), 2); await m.loadExtension(e); e.state + ' ' + e.error
 ```
 
 A result of `1` means the extension is active. The extension must already be enabled with
@@ -66,8 +66,8 @@ after changing the code you have to log out and back in.
 ## Uninstall
 
 ```sh
-gnome-extensions disable instant-area-screenshot@rperez
-rm -rf ~/.local/share/gnome-shell/extensions/instant-area-screenshot@rperez
+gnome-extensions disable instant-area-screenshot@todomagichere
+rm -rf ~/.local/share/gnome-shell/extensions/instant-area-screenshot@todomagichere
 ```
 
 ## How it works
