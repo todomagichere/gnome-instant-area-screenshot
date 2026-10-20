@@ -1,7 +1,7 @@
 {
   "uuid": "instant-area-screenshot@todomagichere",
   "name": "Instant Area Screenshot",
-  "description": "In the screenshot UI, every drag draws a new selection and releasing the mouse takes the screenshot right away.",
+  "description": "Draw, release, done. Area screenshots in one gesture.\n\nOpen the screenshot tool, drag over what you want and let go: the screenshot is taken instantly. No leftover rectangle from last time, no moving or resizing the old selection to grab something inside it, no extra click on the capture button.\n\nScreen, window and screen-recording modes work as usual.",
   "shell-version": [
     "50"
   ],
