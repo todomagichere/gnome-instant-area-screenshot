@@ -2,6 +2,8 @@
   "uuid": "instant-area-screenshot@todomagichere",
   "name": "Instant Area Screenshot",
   "description": "In the screenshot UI, every drag draws a new selection and releasing the mouse takes the screenshot right away.",
-  "shell-version": ["50"],
-  "version": 1
+  "shell-version": [
+    "50"
+  ],
+  "url": "https://github.com/todomagichere/gnome-instant-area-screenshot"
 }
