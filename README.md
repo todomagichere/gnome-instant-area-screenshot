@@ -13,6 +13,19 @@ screenshot tool (the one you open with <kbd>Print</kbd>):
   screenshot is saved, just as if you had pressed the capture button. It goes to the
   clipboard and to `~/Pictures/Screenshots` as usual.
 
+## Why
+
+I made this for my own desktop, Ubuntu 26.04 LTS with GNOME Shell 50 on Wayland.
+
+I take a lot of area screenshots, and the stock tool kept getting in the way. It reopens with
+the last rectangle already on screen. Whenever the thing I wanted to capture was inside that
+rectangle, pressing there moved the old box instead of starting a new one. Every screenshot
+meant dragging the box aside or readjusting it, and then clicking the capture button.
+
+I wanted it to be one gesture: drag over what I want, let go, done.
+
+## Behavior details
+
 Everything else works as in stock GNOME:
 
 - A plain click without dragging doesn't take a screenshot.
